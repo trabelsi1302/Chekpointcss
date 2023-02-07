@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- some information about our small website -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Workshop</title>
+ <link rel="stylesheet" href="styles.css">
+ <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+  </style>
+</head>
+<body>
+    <!-- this is the navbar section -->
+    <nav>
+        <!-- Unordered List (ul) -->
+        <ul>
+            <!-- some lists -->
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- our main block code -->
+    <main>
+        <!-- first section called home -->
+        <section id="home">
+            <div class="me">
+                <img src="/tom.jpg">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, magnam laboriosam deleniti facere itaque pariatur vel aspernatur consequatur       repellat quibusdam animi fugit temporibus qui inventore officiis, iste molestias cupiditate non.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, velit rem accusantium officiis odio dicta, harum excepturi mollitia quidem laboriosam aliquam nostrum dolores provident! Consequuntur labore illo laborum dolorum ullam?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas distinctio neque molestias a quisquam reiciendis assumenda id blanditiis quo asperiores expedita minima dolorum necessitatibus accusamus, voluptate adipisci exercitationem officiis quod.
+                </p>
+            </div>
+        </section>
+        <!-- second section called about -->
+        <section id="about">
+            <ol>
+                <li>Name: John</li>
+                <li>Last Name: Doe</li>
+                <li>Email: john@gmail.com</li>
+                <li>Academic Background: 
+                    <ol>
+                        <li>Architecture</li>
+                        <li>IT degree</li>
+                    </ol>
+                </li>
+            </ol>
+            <!-- this is a youtube link -->
+            <iframe width="914" height="514" src="https://www.youtube.com/embed/TylGOJJJISI" title="Anette Olzon 'Lies' Official Music Video from the new album 'Shine' OUT NOW!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+        </section>
+        <!-- third section called contact -->
+        <section id="contact">
+            <form>
+                <label for="name">First Name</label>
+                <input type="text" id="name">
+                <br>
+                <label for="">Last Name</label>
+                <input type="text">
+                <br>
+                <label for="">Birth date</label>
+                <input type="date">
+                <br>
+                <label for="">Phone Number</label>
+                <input type="number">
+                <br>
+                <label for="">Email</label>
+                <input type="email">
+                <br>
+                <label for="">Comment</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
